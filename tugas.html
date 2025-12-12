@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Penggunaan Align pada CSS</title>
+
+<style type="text/css">
+  /* Mengatur gaya umum halaman */
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('myflower.gif');
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+  }
+
+  /* Mengatur tampilan judul */
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+  }
+
+  /* Paragraf dengan class 'date' rata kanan */
+  p.date {
+    text-align: right;
+    font-style: italic;
+    color: #555;
+    margin-right: 40px;
+  }
+
+  /* Paragraf utama dengan teks justify dan warna mencolok */
+  p.main {
+    text-align: justify;
+    font-size: 125%;
+    color: red;
+    margin: 30px 60px;
+  }
+
+  /* Paragraf tambahan di bawah */
+  p.note {
+    font-size: 95%;
+    margin: 20px 60px;
+    color: #333;
+  }
+
+  /* Garis pemisah dekoratif */
+  hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    width: 80%;
+    margin: 20px auto;
+  }
+</style>
+</head>
+
+<body>
+  <h1>Penggunaan Align pada CSS</h1>
+  <p class="date">06 November, 2025</p>
+  <hr>
+
+  <p class="main">
+    Ayah saya selalu memberi nasihat pada waktu saya masih muda dan masih sangat perlu pengawasan,
+    "apabila kamu dikritik oleh seseorang ingatlah bahwa semua orang di dunia tidak ada yang memiliki kelebihanmu."
+    
+    <!-- 1. Apa yang dimaksud Class dalam CSS?
+Class dalam CSS adalah selector yang digunakan untuk menerapkan style ke satu 
+atau lebih elemen HTML. Class memungkinkan kita untuk:
+
+Menggunakan style yang sama pada banyak elemen - Satu class bisa dipakai berkali-kali
+Memberikan nama yang deskriptif - Memudahkan pemahaman fungsi style tersebut
+Memisahkan presentasi dari struktur - HTML fokus ke konten, CSS fokus ke tampilan
+
+Cara penulisan:
+
+Di CSS: menggunakan titik (.) di depan nama class, contoh: .nama-class
+Di HTML: menggunakan atribut class="nama-class" -->
+    <br><br>
+    My father always gave advice when I was young and still in need of supervision,
+    "if you are criticized by someone remember that all people in the world no one has your strengths."
+  </p>
+
+  <p class="note">ALI AL BANTENI.</p>
+</body>
+</html>
